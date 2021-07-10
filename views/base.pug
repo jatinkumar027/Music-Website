@@ -1,0 +1,21 @@
+html
+  head
+    title Jatin Music Academy
+    link(rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css")
+    block scripts
+    block style
+      
+  body
+    nav#navbar 
+            ul 
+                li #[a(href="/") Home]
+                li #[a(href="/") About]
+                li #[a(href="/") Services]
+                li #[a(href="/") Class Info]
+                li #[a(href="/contact") Contact]
+                li #[a(href="javascript:void(0);" class="icon" onclick="myFunction()")  #[i(class="fa fa-bars")] ]
+    
+    block content
+    block foot
+      #footer
+        | Copyright © 2021 JatinMusicAcademy.com | All Rights Reserved

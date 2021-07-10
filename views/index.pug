@@ -1,0 +1,57 @@
+doctype html
+html 
+    head
+        title Jatin Music Academy
+        style
+            include ../static/style.css
+    body
+        nav#navbar 
+            ul 
+                li #[a(href="/") Home]
+                li #[a(href="/") About]
+                li #[a(href="/") Services]
+                li #[a(href="/") Class Info]
+                li #[a(href="/") Contact]
+
+        section#introsection 
+            div Welcome to Jatin's Music Academy
+            div.small Music is life itself         
+        section#missionsection
+            h2 Our Mission 
+            div.card
+                h3 Love 
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/img/1.png")
+                    div.card-content 
+                        p Music is love in search of a word
+
+            div.card
+                h3 Soundtrack 
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/img/2.png")
+                    div.card-content 
+                     p Music is the soundtrack of your life
+
+            div.card
+                h3 Shorthand 
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/img/3.png")
+                    div.card-content                    
+                        p Music is the shorthand of emotion                        
+
+        section#sponsorsection 
+            h2 Our Sponsors
+            img(src= "/static/img/s1.jpg", alt= "Sponsor Image", class= "spImage")
+            img(src= "/static/img/s2.png", alt= "Sponsor Image", class= "spImage")
+            img(src= "/static/img/s3.jpg", alt= "Sponsor Image", class= "spImage")
+            img(src= "/static/img/s4.png", alt= "Sponsor Image", class= "spImage")
+        
+        footer#footer 
+            | Copyright © 2021 JatinMusicAcademy.com | All Rights Reserved
+
+        script 
+            include ../static/index.js
+
