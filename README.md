@@ -9,6 +9,7 @@ Developed a Website for the use of Music School as a practice
 
 ## Screenshot
 ![Screenshot-1](https://github.com/jatinkumar027/Music-Website/blob/main/screenshot/Screenshot-1.png?raw=true)
+
 ![Screenshot-2](https://github.com/jatinkumar027/Music-Website/blob/main/screenshot/Screenshot-2.png?raw=true)
   
 ## Badges
